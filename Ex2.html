@@ -6,8 +6,35 @@
 </head>
 
 <body bgcolor = "pink" text = "black">
-<form method ="post">
-    
+<form  enctype="multipart/form-data" method ="post">
+    <h2> Formulaire d'Inscription </h2>
+<label> Nom :
+    <input type = "text" name = "fname"/>
+</label><br><br>
+<label> Prénom : 
+    <input type = "text" name = "lname"/>
+</label><br><br>
+<label> Numéro étudiant : 
+    <input type = "text" name = "nber"/>
+</label><br><br>
+<label> Groupe :
+ <select name = "grp">
+    <option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+<option value="D">D</option>
+<option value="E">E</option>
+ </select>
+</label><br><br>
+<label> Photo :
+    <input type = "file" name ="photo" accept="image/*">
+
+</label><br><br>
+<input type = "submit" value = "s'inscrire"/>
+
+
+
+</form>
 </body>
 
 </html>
