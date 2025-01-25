@@ -1,0 +1,40 @@
+
+div.divs p.pars{
+
+    color: blue;
+}
+
+abbr[title]{
+
+}
+
+[width="300"]{
+
+}
+
+nav.nav1 a[href]{
+
+}
+
+div.divs > p {
+
+}
+
+p#id1 img.images {
+
+}
+
+img:nth-child(odd){
+
+}
+img[src$=".jpg"]{
+
+
+}
+div.div1+div.div2{
+
+}
+
+table tbody tr:nth-child(even){
+
+}
