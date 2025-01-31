@@ -1,5 +1,7 @@
 table {
-    border-top: 2px solid red;
-    border-bottom: 2px solid blue;
+    border-width: 2px;
+    border-color: red black rgb(94, 94, 202) grey ;
+    border-style: solid;
     width: 95%;
+    
 }
