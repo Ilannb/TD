@@ -1,0 +1,38 @@
+li{
+    cursor: pointer;
+    float: left;
+    border: 1px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 2px;
+}
+
+ul {
+    list-style-type: none;  /* Enlève les puces */
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;    /* Empêche le retour à la ligne dans la liste */
+  }
+
+  li:first-child {
+    margin-right:5px ;
+  }
+
+li.active{
+    border-bottom: 0px;
+}
+li.l1{
+    background-color: yellow;
+    
+}
+li.l2{
+    background-color: green;
+}
+li.l3{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+

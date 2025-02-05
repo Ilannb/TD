@@ -1,0 +1,16 @@
+input[name="sinscrire"]{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+   
+}
+fieldset{
+    border: 2px solid red;
+    border-radius: 9px;
+}
+
+legend{
+   background-color: grey;
+   border-radius: 5px;
+   padding: 6px;
+}
